@@ -13,7 +13,8 @@ import {
 
 const App = () => {
 
-  const apiKey = process.env.REACT_APP_NEWS_API_KEY;
+  // const apiKey = process.env.REACT_APP_NEWS_API_KEY;
+  const apiKey = "552c1cb3139240f0a10a9cfe31cb29cb";
 
   const [progress, setProgress] = useState(0)
   const pageSize = 6;
